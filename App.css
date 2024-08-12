@@ -1,0 +1,47 @@
+/* App.css */
+body{
+  background-color: rgb(18, 18, 231);
+}
+
+.card {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.time-display {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.time-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.alarm-info {
+  margin: 1rem 0;
+  color: #555;
+}
+
+.stop-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.stop-button:hover {
+  background-color: #d32f2f;
+}
